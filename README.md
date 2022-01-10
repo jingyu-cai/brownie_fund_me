@@ -1,2 +1,2 @@
 # brownie_fund_me
-Smart Contract Application from FreeCodeCamp: https://www.youtube.com/watch?v=M576WGiDBdQ&t=5614s&ab_channel=freeCodeCamp.org
+Smart contract application from freeCodeCamp: https://www.youtube.com/watch?v=M576WGiDBdQ&t=5614s&ab_channel=freeCodeCamp.org
