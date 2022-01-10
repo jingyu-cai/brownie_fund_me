@@ -21,3 +21,10 @@ def test_only_owner_can_withdraw():
     bad_actor = accounts.add()
     with pytest.raises(exceptions.VirtualMachineError):
         fund_me.withdraw({"from": bad_actor})
+
+# Where should I run my tests
+# 1. Brownie Ganache Chain with Mocks: Always
+# 2. Testnet: Always (but only for integration testing)
+# 3. Brownie mainnet-fork: Optional
+# 4. Custom mainnet-fork: Optional
+# 5. Self/Local Ganache: Not necessary, but good for tinkering
